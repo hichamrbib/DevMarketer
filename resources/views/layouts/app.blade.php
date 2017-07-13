@@ -13,16 +13,16 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body>  
+
+    @include('_includes.nav.main')
+
     <div id="app">
-        
-
-        @include('inc.navbar')
         @yield('content')
-
     </div>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    @yield('scripts')
 </body>
 </html>
