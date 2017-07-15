@@ -9,10 +9,6 @@ Vue.use(Buefy);
 
 // Vue.component('example', require('./components/Example.vue'));
 
-var app = new Vue({
-	el: '#app',
-	data: {}
-})
 
 //dropdown hover toggle 
 $(document).ready(function() {
@@ -21,3 +17,4 @@ $(document).ready(function() {
     $(this).toggleClass('is-open')
   })
 })
+
